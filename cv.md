@@ -17,9 +17,8 @@ function smash (words) {
 ```
 
 ### Work experience:
-HTML
-CSS
-PHOTOSHOP
+1. Bank
+2. National children center "Zubronok"
 
 ### Education and courses:
 1. https://htmlacademy.ru/ (html, css, java script)
