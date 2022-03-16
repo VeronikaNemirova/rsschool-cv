@@ -11,13 +11,17 @@
 
 body {
   box-sizing: border-box;
-  background-color: var(--white-color);
+
 }
 
 header {
   padding: 30px;
   text-align: center;
-  background-color: var(--white-color);
+  background-color: rgba(253, 251, 251, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #777777;
 }
 
 footer {
@@ -25,15 +29,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  font-size: 12px;
-  color: var(--white-color);
-  background-color: var(--dark-gray-color);
+  color: #505050;
+  font-size: 20px;
   width: 100%;
 }
 
 footer a {
   text-decoration: none;
-  color: var(--white-color);
+  color: #505050;
 }
 
 footer .github-icon {
@@ -50,21 +53,24 @@ main h3 {
   padding: 5px 20px;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #ffffff;
-  background-color: var(--dark-gray-color);
-  border-radius: 30%;
+  letter-spacing: 6px;
+  color: #505050;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.301);
+
 }
 
 main .contacts h3 {
   margin-top: 0;
   margin-bottom: 0;
   transform: translate(0, -50%);
-  border-radius: 30%;
+
 }
 
 main li {
   margin-bottom: 10px;
+  list-style-type: none;
+  color: #777777;
+  font-size: 24px;
 }
 
 .nav-list {
@@ -85,12 +91,13 @@ main li {
 }
 
 .main-container {
+  background-image: url(./images/1618530658_17-funart_pro-p-oboi-fon-fon-vertikalnii-17.jpg);
+  background-repeat: no-repeat;
   margin: 20px auto;
   width: 1024px;
   font-family: "Neucha", sans-serif;
   font-size: 20px;
   line-height: 2;
-  background-color: var(--white-color);
   box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
 }
 
@@ -100,26 +107,62 @@ main li {
 
 .left-column {
   width: 50%;
-  color: var(--dark-gray-color);
-  background-color: var(--light-yellow-color);
+  margin: 15px;
+  background-color: rgba(253, 251, 251, 0.178);
+  border-radius: 1.5%;
+
+}
+
+.photoshop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(167 164 150);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.dot-no {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(238, 236, 226);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+
 }
 
 .right-column {
-  width: 58%;
-  padding: 40px;
+  width: 50%;
+  padding: 30px;
+  margin: 15px;
+  background-color: rgba(253, 251, 251, 0.178);
+  border-radius: 1.5%;
 }
 
 .avatar {
   margin-bottom: 10px;
-  border: 20px solid var(--light-yellow-color);
-  border-radius: 30%;
+  border-radius: 60%;
 }
 
 .name {
   margin-bottom: 10px;
   font-size: 2rem;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 2;
   text-transform: uppercase;
   letter-spacing: 7px;
 }
@@ -137,6 +180,17 @@ main li {
 .language-name {
   font-weight: 700;
   text-transform: uppercase;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #777777;
 }
 
 .right-column .section-header {
@@ -166,6 +220,10 @@ main li {
   letter-spacing: 1px;
   color: var(--ligth-gray-color);
   border-bottom: 2px solid var(--ligth-gray-color);
+}
+
+.aboutMe {
+  margin-right: 50px;
 }
 
 .right-column img {
@@ -201,18 +259,25 @@ main li {
   margin: 0 auto;
 }
 
-
-.code {
-  margin-left: -10px;
-  margin-top: 20px;
-  padding-left: 30px;
-  font-family: monospace;
-  font-size: 16px;
-  background-color: var(--white-color);
+.section-header {
+  margin-right: 50px;
 }
 
+.code {
+  margin-top: 20px;
+  align-items: flex-start;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: rgba(238, 236, 226, 0.521);
+  
+}
+.code p {
+  color: black;
+  padding-left: 10px;
+}
 
 .my-github {
   display: flex;
   align-items: center;
+
 }
