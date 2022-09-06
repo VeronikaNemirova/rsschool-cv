@@ -1,0 +1,295 @@
+:root {
+    --dark-gray-color: #505050;
+    --ligth-gray-color: #777777;
+    --light-yellow-color: #f8f7aadc;
+    --white-color: #fff;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    box-sizing: border-box;
+  
+  }
+  
+  header {
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(253, 251, 251, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #777777;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #505050;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #505050;
+  }
+  
+  footer .github-icon {
+    margin-right: 10px;
+  }
+  
+  
+  main {
+    padding: 0 40px;
+  }
+  
+  main h3 {
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #505050;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.301);
+  
+  }
+  h3:hover {
+    color: rgb(153, 149, 145);
+  }
+  
+  main .contacts h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+  
+  }
+  
+  main li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: #777777;
+    font-size: 24px;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-list-item a {
+    color: var(--white-color);
+  }
+  
+  .navigation {
+    background-color: var(--dark-gray-color);
+  }
+  
+  .main-container {
+    background-image: url(./images/1618530658_17-funart_pro-p-oboi-fon-fon-vertikalnii-17.jpg);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Neucha", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+  }
+  
+  .two-columns {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 50%;
+    margin: 15px;
+    background-color: rgba(253, 251, 251, 0.178);
+    border-radius: 1.5%;
+  
+  }
+  
+  .photoshop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .icon {
+    margin-right: 20px;
+  }
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(167 164 150);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  
+  }
+  
+  .dot-no {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(238, 236, 226);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  
+  }
+  
+  .right-column {
+    width: 50%;
+    padding: 30px;
+    margin: 15px;
+    background-color: rgba(253, 251, 251, 0.178);
+    border-radius: 1.5%;
+  }
+  
+  .avatar {
+    margin-bottom: 10px;
+    border-radius: 60%;
+  }
+  
+  .name {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  .name:hover {
+    color: rgb(153, 149, 145);
+  }
+  
+  .contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .contacts li p {
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  .language-name {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .text-hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #777777;
+  }
+  
+  .right-column .section-header {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .right-column .section .section-header {
+    margin-top: 0;
+  }
+  
+  .section p {
+    margin-bottom: 10px;
+    margin-left: 45px;
+  }
+  
+  .section p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .right-column h3 {
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ligth-gray-color);
+    border-bottom: 2px solid var(--ligth-gray-color);
+  }
+  
+  .right-column h3:hover {
+    color: rgb(153, 149, 145);
+  }
+  
+  .aboutMe {
+    margin-right: 50px;
+    text-align: justify;
+  }
+  
+  .right-column img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .right-column p {
+    color: var(--ligth-gray-color);
+  }
+  
+  .education p {
+    margin-left: 45px;
+  }
+  
+  .education p strong {
+    font-weight: 700;
+  }
+  
+  .courses ul {
+    list-style-type: disc;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  
+  .courses li {
+    margin-bottom: 10px;
+    color: var(--ligth-gray-color);
+  }
+  
+  .right-column img.score-img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .section-header {
+    margin-right: 50px;
+  }
+  
+  .code {
+    margin-top: 20px;
+    align-items: flex-start;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgba(238, 236, 226, 0.521);
+    
+  }
+  .code p {
+    color: black;
+    padding-left: 10px;
+  }
+  
+  .my-github {
+    display: flex;
+    align-items: center;
+  
+  }
+  
