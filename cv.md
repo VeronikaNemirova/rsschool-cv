@@ -11,10 +11,10 @@ I like to solve different tasks. I want to get a new experience in the world of 
 ### Code example:
 ```javascript
 function highAndLow(numbers){
-  const arr = numbers.split(' ')
-  const maxArr = Math.max.apply(null, arr);
-  const minArr = Math.min.apply(null, arr);
- return `${maxArr} ${minArr}`
+  let arr = numbers.split(' ').sort(function(a, b) {
+  return a - b;
+    });
+  return arr[arr.length - 1] + ' ' + arr[0];
 }
 ```
 
