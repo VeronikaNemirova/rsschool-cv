@@ -27,6 +27,7 @@ function highAndLow(numbers){
 1. https://htmlacademy.ru/ (html, css, java script)
 2. codecademy.com (html, css, java script)
 3. RSSchool (stage 0)
+4. RSSchool (stage 1 in 2022)
 
 ### Language:
 English level - A2
