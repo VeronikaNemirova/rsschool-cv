@@ -157,12 +157,19 @@
             <h3>Code example</h3>
           </div>
           <div class="code">
-            <p>function highAndLow(numbers){</p>
-            <p>let arr = numbers.split(' ').sort(function(a, b) {</p>
-            <p>return a - b;</p>
-            <p> });</p>
-            <p>return arr[arr.length - 1] + ' ' + arr[0];</p>
-            <p>}</p>
+            function sumEvenNumbers(input) {<br>
+              let arr = [];<br>
+              input.forEach((el) => {<br>
+                if (el % 2 === 0) {<br>
+                  arr.push(el)<br>
+                }<br>
+              })<br>
+              let res = arr.reduce((a,b) => {<br>
+                return a+b<br>
+              }, 0)<br>
+              return res<br>
+            
+            }
 
           </div>
         </section>
