@@ -1,5 +1,5 @@
 # Veronika Nemirova
-----------
+
 ### Contacts:
 - **Discord:** VeronikaNemirova#4855
 - **E-mail:** nvn92@tut.by
@@ -10,11 +10,13 @@ I like to solve different tasks. I want to get a new experience in the world of 
 
 ### Code example:
 ```javascript
-function highAndLow(numbers){
-  let arr = numbers.split(' ').sort(function(a, b) {
-  return a - b;
-    });
-  return arr[arr.length - 1] + ' ' + arr[0];
+function spoonerize(words) {
+    const arr = words.split(" ");
+  const arrFirst = arr[0][0];
+  const arrLast = arr[arr.length - 1][0]
+  arr[0] = arrLast + arr[0].slice(1)
+  arr[arr.length - 1] = arrFirst + arr[arr.length - 1].slice(1)
+  return arr.join(" ")
 }
 ```
 
@@ -27,6 +29,9 @@ function highAndLow(numbers){
 1. https://htmlacademy.ru/ (html, css, java script)
 2. codecademy.com (html, css, java script)
 3. RSSchool (stage 0)
+4. RSSchool (stage 1 in 2022)
 
 ### Language:
 English level - A2
+
+

@@ -157,12 +157,14 @@
             <h3>Code example</h3>
           </div>
           <div class="code">
-            <p>function highAndLow(numbers){</p>
-            <p>let arr = numbers.split(' ').sort(function(a, b) {</p>
-            <p>return a - b;</p>
-            <p> });</p>
-            <p>return arr[arr.length - 1] + ' ' + arr[0];</p>
-            <p>}</p>
+            function spoonerize(words) {<br>
+              const arr = words.split(" ");<br>
+            const arrFirst = arr[0][0];<br>
+            const arrLast = arr[arr.length - 1][0]<br>
+            arr[0] = arrLast + arr[0].slice(1)<br>
+            arr[arr.length - 1] = arrFirst + arr[arr.length - 1].slice(1)<br>
+            return arr.join(" ")<br>
+          }
 
           </div>
         </section>
@@ -173,7 +175,7 @@
         alt="Github Icon" width="26" height="26">
         <p>My GitHub</p>
       </a>
-      <p>© 2022</p>
+      <p>© 2023</p>
       <a href="https://rs.school/js-stage0"> <img src="./images/rsschool.svg" alt="Rsschool Icon" width="103" height="56">
       </a>
     </footer>
