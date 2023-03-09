@@ -10,18 +10,13 @@ I like to solve different tasks. I want to get a new experience in the world of 
 
 ### Code example:
 ```javascript
-function sumEvenNumbers(input) {
-  let arr = [];
-  input.forEach((el) => {
-    if (el % 2 === 0) {
-      arr.push(el)
-    }
-  })
-  let res = arr.reduce((a,b) => {
-    return a+b
-  }, 0)
-  return res
-
+function spoonerize(words) {
+    const arr = words.split(" ");
+  const arrFirst = arr[0][0];
+  const arrLast = arr[arr.length - 1][0]
+  arr[0] = arrLast + arr[0].slice(1)
+  arr[arr.length - 1] = arrFirst + arr[arr.length - 1].slice(1)
+  return arr.join(" ")
 }
 ```
 
